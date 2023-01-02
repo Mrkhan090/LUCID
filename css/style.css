@@ -1,0 +1,272 @@
+/*css structure start here*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*css structure end here*/
+
+/*Global title css start*/
+	
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+
+.title h4{
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px;
+}	
+
+.title h1{
+	font-size: 46px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+/*Global title css end*/
+
+/*header css start here*/
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-item .active{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+/*header css end here*/
+
+/*banner css start here*/
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.banner h4{
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+.banner h1{
+	font-size: 46px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+
+.banner p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+
+
+.banner .double-button{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+
+.banner .double-button .btn-primary{
+	padding: 15px 30px;
+	margin: 0px 20px 0px 0px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.banner .double-button .btn-primary:hover{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #999;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.banner .double-button .btn-info:hover{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-info:focus{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/*banner css end here*/
+
+/*feature css start here*/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature .title{
+	text-align: center;
+}
+
+.feature .inner-feature{
+	width: 100%;
+	padding: 35px;
+	text-align: center;
+}
+
+.feature .inner-feature .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin: 0px auto;
+	border: 1px solid #eee;
+	border-radius: 100%;
+}
+
+.feature .inner-feature h4{
+	font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.feature .inner-feature p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+/*feature css end here*/
+
+
+/* about-long css start here */
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+
+.about-long .title{
+	padding: 45px 0px 10px;
+}
+
+.about-long p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+
+.about-long ul{
+	padding: 20px 0px 0px;
+	margin: 0;
+}
+
+.about-long ul li{
+	list-style: none;
+	margin: 0px 0px 10px;
+	font-size: 16px;
+	line-height: 1.7em;
+	font-weight: 700;
+	color: #000;
+}
+
+.about-long ul li img{
+	width: 13px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+/* about-long css end here */
